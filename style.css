@@ -19,13 +19,15 @@ header{
 
 .alto-header{
     background-color: #F5F8FA;
-    height: 80px;
+    height: 75px;
     width: auto;
+
 }
 
 .basso-header{
+    border-top: 1px solid #CBD6E2;
     background: white;
-    height: 80px;
+    height: 85px;
     width: auto;
 }
 
@@ -33,8 +35,16 @@ header{
     background-color: #F5F8FA;
     height: 80px;
     padding: 12px 0;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+#bot{
+    background-color: white;
+    height: 80px;
+    padding: 5px 0;
+    margin-left: 160px;
+    margin-right: 160px;
 }
 
 .top-destra{
@@ -59,7 +69,7 @@ header{
 }
 
 .link-top-sinistra.border{
-    border-right: 2px solid lightgrey;
+    border-right: 1px solid #CBD6E2;
 }
 
 .button{
@@ -76,4 +86,29 @@ header{
 
 .button.gethubspot{
     background-color: #FF7A59;
+}
+
+.bot-sinistra{
+    height: 40px;
+    float: left;
+    margin-top: 15px;
+}
+
+#logo{
+    height: 100%;
+}
+
+.bot-destra{
+    height: 40px;
+    float: right;
+    margin:auto;
+    line-height: 4;
+}
+
+.menu{
+    text-decoration: none;
+    color: #33475B;
+    font-size: 16px;
+    font-family: 'Source Code Pro', monospace;
+    padding: 15px;
 }
