@@ -31,20 +31,19 @@ header{
     width: auto;
 }
 
-#top{
-    background-color: #F5F8FA;
+.container{
     height: 80px;
     padding: 12px 0;
     margin-left: 160px;
     margin-right: 160px;
 }
 
+#top{
+    background-color: #F5F8FA;
+}
+
 #bot{
     background-color: white;
-    height: 80px;
-    padding: 5px 0;
-    margin-left: 160px;
-    margin-right: 160px;
 }
 
 .top-destra{
@@ -95,6 +94,7 @@ header{
 
 .button.gethubspot{
     background-color: #FF7A59;
+    color: white;
 }
 
 .bot-sinistra{
@@ -122,4 +122,22 @@ header{
     font-size: 16px;
     font-family: 'Source Code Pro', monospace;
     padding: 15px;
+}
+
+section{
+    height: 100px;
+    width: auto;
+    background-color: #425B76;
+}
+
+.paragrafo-section{
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    line-height: 2.2;
+}
+
+.paragrafo-section.link{
+    text-decoration: underline;
+    text-decoration-style: solid;
+    font-size: 16px;
 }
