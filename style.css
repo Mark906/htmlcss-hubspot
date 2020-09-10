@@ -80,8 +80,17 @@ header{
     border: 1px solid #FF7A59;
 }
 
+.button:hover{
+    cursor: pointer;
+}
+
 .button.login{
     background-color: white;
+    color: red;
+}
+
+.button.login:hover{
+    background-color: rgba(255, 122, 89, 0.12);
 }
 
 .button.gethubspot{
@@ -107,6 +116,8 @@ header{
 
 .menu{
     text-decoration: none;
+    text-transform: uppercase;
+    text-decoration-style: solid;
     color: #33475B;
     font-size: 16px;
     font-family: 'Source Code Pro', monospace;
