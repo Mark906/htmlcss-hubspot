@@ -50,7 +50,7 @@ header{
 }
 
 .link-top-sinistra{
-    color: #2F497F;
+    color: #33475B;
     font-size: 16px;
     font-family:'Source Code Pro', monospace;
     text-decoration: none;
@@ -63,7 +63,17 @@ header{
 }
 
 .button{
-    font-size: 16px;
+    font-size: 12px;
     font-family:'Source Code Pro', monospace;
     padding: 10px;
+    border-radius: 5%;
+    border: 1px solid #FF7A59;
+}
+
+.button.login{
+    background-color: white;
+}
+
+.button.gethubspot{
+    background-color: #FF7A59;
 }
