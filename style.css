@@ -184,3 +184,48 @@ main{
     font-size: 14px;
     padding: 30px 200px 30px 0;
 }
+
+.home{
+    padding-top: 40px;
+    background-color: #F5F8FA;
+}
+
+.descrizione{
+    font-family: 'Source Code Pro', monospace;
+    height: 475px;
+    width: 345px;
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.descrizione h2{
+    color: #33475B;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    font-size: 28px;
+    letter-spacing: -1.2px;
+}
+
+.descrizione p{
+    color: #33475B;
+}
+
+.prodotti{
+    font-family: 'Source Code Pro', monospace;
+    background-color: white;
+    height: 475px;
+    width: 345px;
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.prodotti:hover{
+    box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
+    transform: scale(1.014);
+}
