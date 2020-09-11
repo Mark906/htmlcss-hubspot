@@ -219,13 +219,59 @@ main{
     height: 475px;
     width: 345px;
     float: left;
-    padding-right: 25px;
-    padding-bottom: 15px;
+    padding: 23px;
     margin-right: 10px;
     margin-bottom: 10px;
 }
 
+.prodotti h4{
+    font-family: 'Source Code Pro', monospace;
+    color: #33475B;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.prodotti h6{
+    text-transform: uppercase;
+    font-family: 'Source Code Pro', monospace;
+    color: #33475B;
+    font-size: 13px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.prodotti h4 span{
+    text-transform: uppercase;
+}
+
+.prodotti p{
+    font-family: 'Source Code Pro', monospace;
+    color: #33475B;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.vantaggi{
+    padding: 10px;
+    list-style-type: none;
+    font-family: 'Source Code Pro', monospace;
+    color: #33475B;
+}
+
+.vantaggi li{
+    padding-bottom: 20px;
+}
+
+
 .prodotti:hover{
     box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
     transform: scale(1.014);
+}
+
+.getstarted{
+    padding-left: 10px;
+    font-size: 17px;
+    width: 200px;
+    height: 70px;
 }
