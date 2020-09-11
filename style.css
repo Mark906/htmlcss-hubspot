@@ -101,6 +101,12 @@ header{
     color: white;
 }
 
+.button.gethubspot.main{
+    font-size: 17px;
+    width: 200px;
+    height: 70px;
+}
+
 .bot-sinistra{
     height: 40px;
     float: left;
@@ -145,7 +151,36 @@ section{
 }
 
 main{
-    height: 1000px;
+    height: 700px;
+
+}
+.background-main{
+    padding-top: 65px;
+    height: 100%;
     background-image: url('https://cdn2.hubspot.net/hubfs/53/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg');
     background-repeat: no-repeat;
+}
+
+.corpo-main{
+    font-family: 'Source Code Pro', monospace;
+    width: 450px;
+    float: left;
+    text-align: left;
+    color: #33475B;
+}
+
+.corpo-main h1{
+    padding: 15px 0;
+    text-decoration-style: solid;
+    font-size: 46px;
+}
+
+.corpo-main p{
+    padding-bottom: 15px;
+}
+
+.corpo-main span{
+    display: block;
+    font-size: 14px;
+    padding: 30px 200px 30px 0;
 }
