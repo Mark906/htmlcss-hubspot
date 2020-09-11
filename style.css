@@ -6,7 +6,6 @@
 }
 
 header{
-    height: 160px;
     width: auto;
     background: grey;
 }
@@ -19,23 +18,30 @@ header{
 
 .alto-header{
     background-color: #F5F8FA;
-    height: 75px;
-    width: auto;
-
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .basso-header{
     border-top: 1px solid #CBD6E2;
     background: white;
-    height: 85px;
-    width: auto;
+    width: 100%;
+    padding-top: 65px;
 }
 
 .container{
-    height: 80px;
     padding: 12px 80px;
     margin-left: 160px;
     margin-right: 160px;
+}
+
+.container::after
+{
+    content: '';
+    display: table;
+    clear: both;
 }
 
 #top{
@@ -48,12 +54,10 @@ header{
 
 .top-destra{
     margin-top: 5px;
-    height: 40px;
     float: right;
 }
 
 .top-sinistra{
-    height: 40px;
     float: left;
     margin-top: 15px;
 }
@@ -108,7 +112,6 @@ header{
 }
 
 .bot-destra{
-    height: 40px;
     float: right;
     margin:auto;
     line-height: 4;
@@ -125,7 +128,6 @@ header{
 }
 
 section{
-    height: 100px;
     width: auto;
     background-color: #425B76;
 }
@@ -140,4 +142,10 @@ section{
     text-decoration: underline;
     text-decoration-style: solid;
     font-size: 16px;
+}
+
+main{
+    height: 1000px;
+    background-image: url('https://cdn2.hubspot.net/hubfs/53/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg');
+    background-repeat: no-repeat;
 }
