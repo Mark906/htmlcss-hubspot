@@ -440,12 +440,16 @@ height: 49px;
 
 .pre-footer-destra{
     float: right;
-    position: relative;
-    right: 100px;
-    bottom: 80px;
+    padding-right: 100px;
 }
 
 .pre-footer-destra img{
     width: 340px;
     height: 400px;
+}
+
+
+footer{
+    background-color: #33475B;
+    height: 600px;
 }
