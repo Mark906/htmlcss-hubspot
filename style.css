@@ -374,8 +374,8 @@ main{
 }
 
 .home-customers{
-    padding-top: 100px;
-    height: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
     background-color: #F5F8FA;
 }
 
@@ -407,4 +407,45 @@ main{
 padding:5px;
 width: 134px;
 height: 49px;
+}
+
+.pre-footer{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F5F8FA;
+}
+
+.pre-footer-sinistra{
+    float: left;
+    font-family: 'Source Code Pro', monospace;
+    color: #33475B;
+    width: 540px;
+}
+
+.pre-footer-sinistra p{
+    width: 570px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.pre-footer-sinistra h2{
+    font-size: 38px;
+}
+
+.pre-footer-sinistra small{
+    display: block;
+    padding-top: 15px;
+
+}
+
+.pre-footer-destra{
+    float: right;
+    position: relative;
+    right: 100px;
+    bottom: 80px;
+}
+
+.pre-footer-destra img{
+    width: 340px;
+    height: 400px;
 }
