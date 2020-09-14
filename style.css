@@ -359,7 +359,7 @@ main{
     color: white;
 }
 
-.homecommunity h2::after{
+.numbers::after{
     content: '\f067';
     font-family: 'Font Awesome 5 Free';
     font-weight: bold;
@@ -391,4 +391,22 @@ main{
 .home-customers-sinistra p{
     color: #33475B;
     font-size: 19px;
+    letter-spacing: 2px;
+    width: 375px;
+}
+
+.home-customers-destra{
+    height: 150px;
+    width: 450px;
+    float: right;
+}
+
+.logo.customers{
+    max-width: 100%;
+}
+
+.logo-customers img{
+padding:15px;
+width: 100px;
+height: 60px;
 }
