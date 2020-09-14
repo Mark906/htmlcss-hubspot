@@ -1,0 +1,394 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper
+{
+    width: 100%;
+    margin: auto;
+}
+
+.container{
+    padding: 12px 80px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.container::after
+{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+header{
+    width: auto;
+}
+
+.header-top{
+    height: 75px;
+    width: 100%;
+    background-color: #F5F8FA;
+    border-bottom: 1px solid #CBD6E2;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header-top-sinistra{
+    float: left;
+    margin-top: 15px;
+}
+
+.link-top-sinistra{
+    color: #33475B;
+    font-size: 16px;
+    font-family:'Source Code Pro', monospace;
+    text-decoration: none;
+}
+
+.link-top-sinistra:first-child{
+    border-right: 1px solid lightgrey;
+}
+
+.world::before{
+    content: '\f7a2';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+    font-size: 15px;
+    padding: 8px;
+}
+
+.world::after{
+    content: '\f0d7';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+    font-size: 15px;
+    padding: 8px;
+}
+
+.header-top-destra{
+    float: right;
+    margin-top: 6px;
+}
+
+.button{
+    font-size: 12px;
+    font-family:'Source Code Pro', monospace;
+    padding: 10px;
+    border-radius: 5%;
+    border: 1px solid #FF7A59;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.button.login{
+    background-color: white;
+    color: red;
+}
+
+.button.login:hover{
+    background-color: rgba(255, 122, 89, 0.12);
+}
+
+.button.gethubspot{
+    background-color: #FF7A59;
+    color: white;
+}
+
+.button.gethubspot.main{
+    font-size: 17px;
+    width: 200px;
+    height: 70px;
+}
+
+.header-bot{
+    height: 75px;
+    margin-top: 75px;
+}
+
+.header-bot-sinistra{
+    height: 55px;
+    float: left;
+
+}
+
+.logo{
+    height: 100%;
+    padding-bottom: 8px;
+}
+
+.header-bot-destra{
+    margin-top: 15px;
+    float: right;
+}
+
+.link-bot-destra{
+    color: #33475B;
+    font-size: 16px;
+    font-family:'Source Code Pro', monospace;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.dropdown::after{
+    content: '\f0d7';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+    font-size: 15px;
+    padding: 8px;
+}
+
+section{
+    width: auto;
+    background-color: #425B76;
+}
+
+.paragrafo-section{
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    line-height: 2.2;
+}
+
+.paragrafo-section.link{
+    text-decoration: underline;
+    text-decoration-style: solid;
+    font-size: 16px;
+}
+
+main{
+    height: 800px;
+    background-color: #F5F8FA;
+}
+
+.homepage{
+    height: 100%;
+    padding-top: 65px;
+    background-image: url('https://cdn2.hubspot.net/hubfs/53/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg');
+    background-repeat: no-repeat;
+}
+
+.corpo-main{
+    font-family: 'Source Code Pro', monospace;
+    width: 450px;
+    float: left;
+    text-align: left;
+    color: #33475B;
+}
+
+.corpo-main h1{
+    padding: 15px 0;
+    text-decoration-style: solid;
+    font-size: 46px;
+}
+
+.corpo-main p{
+    padding-bottom: 15px;
+}
+
+.corpo-main span{
+    display: block;
+    font-size: 14px;
+    padding: 30px 200px 30px 0;
+}
+
+.home{
+    padding-top: 40px;
+    background-color: #F5F8FA;
+    padding-bottom: 35px;
+}
+
+.boxprodotti::after
+{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.boxprodotti{
+    padding-left: 63px;
+}
+
+.descrizione{
+    font-family: 'Source Code Pro', monospace;
+    height: 475px;
+    width: 345px;
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    margin-right: 71px;
+    margin-bottom: 10px;
+}
+
+.descrizione h2{
+    color: #33475B;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    font-size: 28px;
+    letter-spacing: -1.2px;
+}
+
+.descrizione p{
+    color: #33475B;
+}
+
+.prodotti{
+    font-family: 'Source Code Pro', monospace;
+    background-color: white;
+    height: 475px;
+    width: 345px;
+    float: left;
+    padding: 23px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.prodotti h4{
+    font-family: 'Source Code Pro', monospace;
+    color: #33475B;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.prodotti h6{
+    text-transform: uppercase;
+    font-family: 'Source Code Pro', monospace;
+    color: #33475B;
+    font-size: 13px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.prodotti h4 span{
+    text-transform: uppercase;
+}
+
+.prodotti p{
+    font-family: 'Source Code Pro', monospace;
+    color: #33475B;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.vantaggi{
+    padding: 10px;
+    list-style-type: none;
+    font-family: 'Source Code Pro', monospace;
+    color: #33475B;
+}
+
+.vantaggi li{
+    padding-bottom: 20px;
+}
+
+.vantaggi li::before{
+    content:'\f058';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+    font-size: 15px;
+    padding: 8px;
+}
+
+.prodotti:hover{
+    box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
+    transform: scale(1.014);
+}
+
+.getstarted{
+    padding-left: 10px;
+    font-size: 17px;
+    width: 200px;
+    height: 70px;
+}
+
+.community{
+    background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.testocommunity{
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    max-width: 710px;
+    margin: 0 auto;
+}
+
+.testocommunity h2{
+    font-weight: 700;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    font-size: 28px;
+}
+
+.testocommunity p{
+    letter-spacing: -1px;
+    line-height: 1.5;
+}
+
+.homecommunity{
+    color: white;
+    text-align: center;
+    height: 191px;
+    width: 290px;
+    padding: 45px;
+    float: left;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.homecommunity:nth-child(4n){
+    border-right: 0;
+}
+
+.homecommunity:nth-child(n+5){
+    border-bottom: 0;
+}
+
+.homecommunity h2{
+    font-weight: 700;
+    padding-bottom: 10px;
+    font-size: 48px;
+    color: white;
+}
+
+.homecommunity h2::after{
+    content: '\f067';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+    font-size: 10px;
+    padding: 5px;
+    position: relative;
+    bottom:10px;
+}
+
+.immagine img{
+    width:60%;
+}
+
+.home-customers{
+    padding-top: 100px;
+    height: 100%;
+    background-color: #F5F8FA;
+}
+
+.home-customers-sinistra{
+    float: left;
+}
+
+.home-customers-sinistra h2{
+    color: #33475B;
+    font-size: 40px;
+}
+
+.home-customers-sinistra p{
+    color: #33475B;
+    font-size: 19px;
+}
