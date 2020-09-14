@@ -396,8 +396,6 @@ main{
 }
 
 .home-customers-destra{
-    height: 150px;
-    width: 450px;
     float: right;
 }
 
@@ -406,7 +404,7 @@ main{
 }
 
 .logo-customers img{
-padding:15px;
-width: 100px;
-height: 60px;
+padding:5px;
+width: 134px;
+height: 49px;
 }
